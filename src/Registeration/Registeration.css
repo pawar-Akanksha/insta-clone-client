@@ -1,0 +1,202 @@
+.registeration-container {
+    height: 100vh;
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center;
+}
+
+
+.registeration-container > .registeration-box {
+    height: 70vh;
+    width: 30vw;
+    margin: 0 auto;
+    
+}
+
+.registeration-container > .registeration-box > .signup-header {
+    height: 60px;
+}
+
+.registeration-container > .registeration-box > .input-box {
+    display: block;
+    padding: 0 45px;
+}
+
+.registeration-container > .registeration-box > .input-box > .input {
+  
+    padding-bottom: 8px;
+}
+
+.registeration-container > .registeration-box > .input-box > .input:first-child {
+    margin-top: 30px;
+}
+
+.registeration-container > .registeration-box > .input-box > .input > input {
+    height: 25px;
+    width: 80%;
+    padding-left: 10px;
+    border: 1px solid black;
+    background: transparent;
+}
+
+.registeration-container > .registeration-box > .input-box > button {
+    height: 25px;
+    width: 100px;
+    border: 1px solid black;
+    margin-left: 5px;
+    background: transparent;
+}
+
+.registeration-container > .registeration-box > .input-box > button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(12, 11, 11);
+}
+
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: cursive;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registeration-container {
+    height: 100vh;
+    background-image: url("https://polywork-production.imgix.net/8dk1f5b8pps5catpa4uslzfn4u6h?ixlib=rails-4.2.0&w=1500&auto=format&dpr=5&q=20");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center;
+}
+
+.registeration-container > .registeration-box {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 30vw;
+}
+
+.registeration-container > .registeration-box > .signin-header {
+    display: flex;
+    align-items: center;
+    padding-left: 17%;
+    font-size: x-large;
+    height: 90px;
+}
+
+
+.registeration-container > .registeration-box > .input-box {
+    height: 100%;
+}
+
+.registeration-container > .registeration-box > .input-box > .input, .btn, .need-to  {
+    
+    width: 60%;
+    height: 20px;
+    margin: 20px;
+}
+
+
+input[type= 'text'],
+input[type= 'password'],
+input[type= "email"] {
+    width: 100%;
+    height: 100%;
+    font-size: medium;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: .8px solid rgb(43, 40, 40);
+}
+
+.fa-eye {
+    position: absolute;
+    top: 48.6%;
+    left: 57.3%;
+    cursor: pointer;
+}
+
+.registeration-container > .registeration-box > .input-box > button {
+    border: 1px solid black;
+    margin-left: 5px;
+    background: transparent;
+}
+
+.registeration-container > .registeration-box > .input-box > button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.623);
+    color: rgb(12, 11, 11);
+}
+
+.sign-up {
+    text-decoration: underline;
+}
+
+.sign-up:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .registeration-container > .registeration-box {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .fa-eye {
+        position: absolute;
+        top: 48.4%;
+        left: 73.3%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .registeration-container > .registeration-box {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 80vw;
+    }
+
+    .fa-eye {
+        position: absolute;
+        top: 48.4%;
+        left: 71%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    .registeration-container > .registeration-box {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 70vw;
+    }
+
+    .fa-eye {
+        position: absolute;
+        top: 48.4%;
+        left: 68.5%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .registeration-container > .registeration-box {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 60vw;
+    }
+} */

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid black; */
+    border: none;
+    font-family: cursive;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    height: 100vh;
+    background-image: url("https://polywork-production.imgix.net/8dk1f5b8pps5catpa4uslzfn4u6h?ixlib=rails-4.2.0&w=1500&auto=format&dpr=5&q=20");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center;
+}
+
+.login-container > .login-box {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 30vw;
+}
+
+.login-container > .login-box > .signin-header {
+    display: flex;
+    align-items: center;
+    padding-left: 17%;
+    padding-top: 18%;
+    font-size: x-large;
+    height: 90px;
+}
+
+
+.login-container > .login-box > .input-box {
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+.login-container > .login-box > .input-box > .input, .btn, .need-to  {
+    /* background-color: rgb(217, 255, 0); */
+    width: 60%;
+    height: 40px;
+    margin: 20px;
+}
+
+
+input[type= 'text'],
+input[type= 'password'] {
+    width: 96.6%;
+    height: 100%;
+    font-size: medium;
+    background-color: transparent;
+    border: none;
+    border-bottom: .8px solid rgb(43, 40, 40);
+}
+
+.fa-eye {
+    position: absolute;
+    top: 51.9%;
+    left: 57.3%;
+    cursor: pointer;
+}
+
+.login-container > .login-box > .input-box > button {
+    border: 1px solid black;
+    margin-left: 5px;
+    background: transparent;
+}
+
+.login-container > .login-box > .input-box > button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.623);
+    color: rgb(12, 11, 11);
+}
+
+.sign-up {
+    text-decoration: underline;
+}
+
+.sign-up:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .login-container > .login-box {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .fa-eye {
+        position: absolute;
+        top: 55.4%;
+        left: 72%;
+    }
+}
