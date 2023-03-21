@@ -3,8 +3,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { MainHeader } from "../../Header/Header";
 import './Post.css'
-const API = 'http://localhost:9000'
-// const API = 'https://instaserver-ze4o.onrender.com'
+// const API = 'http://localhost:9000'
+const API = 'https://instacloneserver-yk4r.onrender.com'
 
 export default function CreatePost() {
     const navigate = useNavigate();

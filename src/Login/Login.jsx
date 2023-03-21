@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom"
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
 import { useState } from "react";
 import loader from '../loader.gif'
-const API = 'http://localhost:9000/' 
-// const API = 'https://instaserver-ze4o.onrender.com' 
+// const API = 'http://localhost:9000/' 
+const API = 'https://instacloneserver-yk4r.onrender.com' 
 
 
 export default function Login() {
